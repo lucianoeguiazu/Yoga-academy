@@ -1,0 +1,31 @@
+.navegacion {
+    list-style: none;
+    float: top;
+    background-color: grey;
+    text-align: center;
+    
+}
+
+.navegacion ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.navegacion ul li{
+    display: inline-block;    
+}
+
+.navegacion ul li a{
+    display: block;
+    padding: 20px;
+    transition: all 0.4s linear;
+    border-radius: 20%;
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion ul li a:hover{
+    background-color: rgb(235, 235, 235);
+}

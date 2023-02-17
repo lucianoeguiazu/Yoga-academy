@@ -1,0 +1,52 @@
+h2{
+    text-align: center;
+    color: grey;
+}
+
+.datos ul li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.formulario label{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.formulario input,.formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 0.8em;
+    padding: 0.4em 0.6em;
+    width: 90%;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 18em;
+}
+
+.formulario .acciones{
+    text-align: center;
+}
+
+.formulario input[type="submit"]{
+    background: grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    width: auto;
+    padding: 20px 50px;
+    transition: all 0.4s linear;
+    border-radius: 20%;
+    border: none;
+    
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: rgb(235, 235, 235);
+}

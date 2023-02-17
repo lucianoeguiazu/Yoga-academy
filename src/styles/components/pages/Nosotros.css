@@ -1,0 +1,59 @@
+h2{
+    text-align: center;
+    color: grey;
+}
+
+p{
+    text-align: center;
+    
+}
+
+.img3{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: grey;
+    text-align: center;
+    font-size: 30px;
+}
+
+.profesores{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profe1{
+    border-radius: 50%;
+    width: 30%;
+       
+}
+
+.profe2{
+    border-radius: 50%;
+    width: 30%;
+    
+}
+.profe3{
+    border-radius: 50%;
+    width: 32%;
+    
+}
+
+.profesores1 {
+    display:flex;
+    justify-content: space-around;
+}
+
+.especializacion{
+    margin-top: -60px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.especializacion p{
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-around;
+}   

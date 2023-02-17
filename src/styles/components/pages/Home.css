@@ -1,0 +1,42 @@
+.titulo{
+    text-align: center;
+    color: grey;
+}
+
+.img1{
+    text-align: center;
+}
+
+.subtitulo2{
+    text-align: center;
+    color: grey;
+}
+
+.bienvenidos p{
+    text-align: center;
+}
+
+.subtitulo3{
+    margin-left: 5%;
+    color: grey;
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.bienvenidos ul li{
+    margin-left: 5%;
+}
+
+.subtitulo4{
+    text-align: center;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: center;
+    
+}

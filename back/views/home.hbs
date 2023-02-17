@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{hbs}}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="logo">  
+    <img src="logo.png" width="40"/>
+</div>
+<div class="nav">
+ <p class="p-nav"> Panel de adm "Escuela de yoga online" </p> 
+</div>
+<div>
+  <h1>{{title}}</h1>
+  <p>{{description}}</p>
+
+  {{#if authenticated}}
+  <h2>Registros</h2>
+    
+    <form action="/create" method="post">
+  <label for="autor">Autor:</label>
+  <input type="text" id="autor" name="autor">
+
+  <label for="titulo">Título:</label>
+  <input type="text" id="titulo" name="titulo">
+
+  <label for="subtitulo">Subtítulo:</label>
+  <input type="text" id="subtitulo" name="subtitulo">
+
+  <label for="contenido">Contenido:</label>
+  <textarea id="contenido" name="contenido"></textarea>
+
+  <button type="submit">Crear</button>
+</form>
+
+<br>
+<br>
+
+<a href="/logout">Cerrar Sesión</a>
+
+  {{else}}
+  <form method="POST" action="/login">
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" placeholder="Ingrese su usuario">
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+    <input class="login" type="submit" value="Iniciar Sesión">
+  </form>
+  {{/if}}
+
+
+</div>
+</body>
+</html>

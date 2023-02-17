@@ -1,0 +1,40 @@
+h1{
+    color: grey;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clase{
+    background-color: rgb(235, 235, 235);
+    width: 30%;
+    padding-bottom: 2%;
+}
+
+
+
+h4{
+    text-align: center;
+    color: black;
+}
+
+.botones{
+    background: grey;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    transition: all 0.4s linear;
+  
+}
+
+.botones:hover{
+    background-color: white;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 2%;
+}
